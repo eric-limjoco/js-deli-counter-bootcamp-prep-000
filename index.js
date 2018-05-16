@@ -21,6 +21,7 @@ function nowServing(){
 }
 
 function currentLine(){
-  if(katsDeli.length === 0) return "The line is currently empty"
+  if(katsDeli.length === 0) return "The line is currently empty."
+  
 }
 }
