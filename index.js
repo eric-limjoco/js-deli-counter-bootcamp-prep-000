@@ -17,6 +17,10 @@ function nowServing(){
   if(katsDeli.length > 0){
     return katsDeli.shift()
   }
-  
   return "There is nobody waiting to be served!"
+}
+
+function currentLine(){
+  if(katsDeli.length === 0) return "The line is currently empty"
+}
 }
