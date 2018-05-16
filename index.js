@@ -17,7 +17,7 @@ function currentLine(katzDeliLine){
   var res = "The line is currently: "
   
   for(var i=0; i<katzDeliLine.length; i++){
-    res += `${i+1}. ${katzDeli[i]}${i < katzDeli.length-2 ? ',':''}`
+    res += `${i+1}. ${katzDeliLine[i]}${i < katzDeliLine.length-2 ? ',':''}`
   }
   return res
 }
